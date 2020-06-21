@@ -7,6 +7,7 @@
     }
 
     &__text-content {
+        padding-top: 60px;
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -18,7 +19,7 @@
     &__title {
         font-weight: 300;
         color: $mainBlue;
-        font-size: 2.4rem;
+        font-size: 3.4rem;
         margin: 0;
 
        @mixin atSmall {
@@ -30,7 +31,7 @@
     &__subtitle {
         font-weight: 300;
         color: $mainBlue;
-        font-size: 1.5rem;
+        font-size: 2.0rem;
         margin: 0;
 
         @mixin atSmall {
@@ -48,7 +49,7 @@
 
     &__description {
         color: #fff;
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         font-weight: 100;
         text-shadow: 1px 1px rgba(0, 0, 0, 0.1);
         max-width: 30rem;
